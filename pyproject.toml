@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonweb8-2"
+version = "0.1.0"
+description = ""
+authors = ["Sokil Natalia <sokilnatalka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pythonweb8_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+faker = "^18.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
