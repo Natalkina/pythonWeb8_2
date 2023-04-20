@@ -1,6 +1,5 @@
 import pika
 
-import time
 import json
 
 from models import Contact
